@@ -27,3 +27,8 @@ O que aprendi com esse projeto:
 Esse projeto me ajudou a entender na prática como funciona uma arquitetura de processador bem simples, como a do Neander. Aprendi como trabalhar com instruções básicas, a importância de planejar bem o uso da memória e das variáveis, e também como simular operações mais complexas (como multiplicação) usando apenas somas.
 
 Além disso, ficou claro como loops e controle de fluxo são feitos em um ambiente com recursos limitados. Foi um exercício bom pra reforçar o raciocínio lógico e a organização do código mesmo sem linguagens de alto nível.
+
+
+🙋Gabreil Mendonca Marafante
+🧑‍🎓1 período ADS 
+🚩Unit-PE
