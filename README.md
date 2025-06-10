@@ -1,41 +1,29 @@
-# Projeto NeanderWin - Fatorial
+😎Projeto: Fatorial no NeanderWin😎
+Esse projeto faz o cálculo do fatorial de um número (no caso, o número 4) usando o simulador NeanderWin.
 
-Este projeto implementa o cálculo de fatorial de um número (N = 4) usando o simulador NeanderWin.
+👌Como o programa funciona
+Como o NeanderWin não tem instrução de multiplicação, a multiplicação foi feita de forma simulada, usando somas sucessivas. Por exemplo: ao invés de fazer 4 × 3, o programa soma o 4 três vezes.
 
-## 💡 Funcionamento
+O valor de N começa em 4 e vai sendo decrementado até chegar a 1. A cada ciclo, o programa simula a multiplicação de N pelos números anteriores, acumulando o resultado da multiplicação na variável chamada RESULTADO.
 
-O programa simula a multiplicação manual (por somas sucessivas), respeitando as instruções do Neander. O valor de N é carregado e decrementado até 1, acumulando o resultado da multiplicação em `RESULTADO`.
+Explicação das variáveis
+N: é o valor base usado no cálculo do fatorial. Neste caso, começa com 4.
 
-## 🔢 Variáveis
+UM: constante com valor 1, usada para diminuir o valor de N durante os loops.
 
-| Nome        | Função                               |
-|-------------|--------------------------------------|
-| N           | Valor base para o fatorial (4)       |
-| UM          | Constante 1                          |
-| ZERO        | Constante 0                          |
-| RESULTADO   | Armazena o resultado parcial         |
-| CONTADOR    | Controla os loops                    |
-| ACUMULADOR  | Guarda valor temporário para soma    |
-| AUX         | Controla a multiplicação por soma    |
-| TELA        | Resultado final do programa          |
+ZERO: constante com valor 0, usada para comparações e inicializações.
 
-## 🧪 Exemplo
+RESULTADO: armazena o resultado parcial e, no fim, o fatorial final.
 
-Se N = 4:
-```
-4 * 3 = 12
-12 * 2 = 24
-24 * 1 = 24
-```
-Resultado final: 24 (armazenado em `TELA`)
+CONTADOR: controla os loops usados na soma repetida (para simular a multiplicação).
 
-## 🚀 Como executar
+ACUMULADOR: serve para armazenar temporariamente os valores durante as somas.
 
-1. Copie o conteúdo de `fatorial.asm` para o NeanderWin.
-2. Execute passo a passo ou use o modo contínuo.
-3. Observe o resultado final em `TELA`.
+AUX: guarda o número que vai ser somado repetidamente durante a simulação da multiplicação.
 
-## 📝 Observações
+TELA: é onde o valor final (o fatorial de 4) será mostrado na saída do NeanderWin.
 
-- O programa é didático e demonstra domínio do funcionamento do Neander.
-- Pode ser ajustado para outros valores de N (basta alterar a variável `N`).
+O que aprendi com esse projeto
+Esse projeto me ajudou a entender na prática como funciona uma arquitetura de processador bem simples, como a do Neander. Aprendi como trabalhar com instruções básicas, a importância de planejar bem o uso da memória e das variáveis, e também como simular operações mais complexas (como multiplicação) usando apenas somas.
+
+Além disso, ficou claro como loops e controle de fluxo são feitos em um ambiente com recursos limitados. Foi um exercício bom pra reforçar o raciocínio lógico e a organização do código mesmo sem linguagens de alto nível.
